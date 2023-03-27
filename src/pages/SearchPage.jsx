@@ -4,7 +4,7 @@ import response from "../response";
 import { useStateValue } from "../StateProvider";
 import useGoogleSearch from "../useGoogleSearch";
 import "./SearchPage.css";
-import Search from "./Search";
+import Search from "../components/Search";
 import SearchIcon from "@mui/icons-material/Search";
 import DescriptionIcon from "@mui/icons-material/Description";
 import ImageIcon from "@mui/icons-material/Image";

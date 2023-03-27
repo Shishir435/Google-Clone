@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import AppsIcon from '@mui/icons-material/Apps';
 import Avatar from '@mui/icons-material/AccountCircle';
 import './Home.css'
-import Search from './Search';
+import Search from '../components/Search';
 
 
 const Home = () => {

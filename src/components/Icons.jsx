@@ -22,9 +22,6 @@ const Icons = () => {
             </div>
         </div>
        )) }
-       
-       
-       
     </div>
    
   )
