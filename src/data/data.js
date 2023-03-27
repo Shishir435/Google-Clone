@@ -1,13 +1,13 @@
 export const homePage_IconDetail = [
   {
     id: "1",
-    imgURL: "assets/youtube.png",
+    imgURL: "assets/yotube.png",
     name: "YouTube",
     url: "https://youtube.com/"
   },
   {
     id: "2",
-    imgURL: "assets/gmail.png",
+    imgURL: "assets/mail.png",
     name: "Gmail",
     url: "https://mail.google.com/mail/u/0/#inbox"
   },
@@ -19,8 +19,8 @@ export const homePage_IconDetail = [
   },
   {
     id: "4",
-    imgURL: "assets/add.png",
-    name: "Add",
+    imgURL: "assets/add.svg",
+    name: "Add shortcut",
     url: "https://www.google.com/"
   },
 ];

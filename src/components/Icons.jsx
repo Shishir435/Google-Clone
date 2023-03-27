@@ -19,7 +19,7 @@ const Icons = () => {
               <img src={item.imgURL} alt={item.name} width={24} height={24} style={{ borderRadius: '50%' }} />
             </div>
             <div>
-              <p>{item.name}</p>
+              <p style={{fontWeight: '100', fontSize: '13px'}}>{item.name}</p>
             </div>
           </div></a>
       ))}

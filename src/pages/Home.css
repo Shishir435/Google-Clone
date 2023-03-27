@@ -15,7 +15,8 @@
     margin-right: 20px;
     text-decoration: inherit;
     color: rgba(0, 0, 0, 0.87);
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 100;
 }
 
 .home__header a:hover{
@@ -37,11 +38,10 @@
 .home__body {
     flex: 1;
     display: flex;
-    margin-top: 10%;
+    margin-top: 7%;
     flex-direction: column;
 }
 .home__body > img{
     object-fit: contain;
-    height: 100px;
-     
+    height: 100px;  
 }
