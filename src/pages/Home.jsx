@@ -17,8 +17,8 @@ const Home = () => {
           <Link to='/about'>About</Link>
           </div>
           <div className="header__right">
-            <Link to='/gmail'>Gmail</Link>
-            <Link to='/images'>Images</Link>
+            <a href='https://mail.google.com/mail/u/0/#inbox'>Gmail</a>
+            <a href='https://www.google.com/search?q=images'>Images</a>
             <AppsIcon />
             <Avatar sx={{fontSize: '40px'}}/>
           </div>

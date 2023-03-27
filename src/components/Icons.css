@@ -38,4 +38,13 @@
   margin-top: 24%;
 }
 
+.icon__url {
+  text-decoration: none;
+  color: black;
+}
+
+.icon__url:hover{
+  text-decoration: underline;
+}
+
 
