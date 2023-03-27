@@ -2,6 +2,8 @@
   display: flex;
   background-color: transparent;
   cursor: pointer;
+  margin: 15px auto !important; 
+  /* overflow-x: scroll; */
 }
 
 .homePage__icon:hover {

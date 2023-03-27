@@ -1,11 +1,11 @@
 
-
 .search__input{
+    box-shadow: 0px 0px 5px rgba(152, 154, 155, 0.75);
     display: flex;
     align-items: center;
     border: 1px solid lightgray;
-    height: 35px;
-    padding: 20px 25px;
+    height: 30px;
+    padding: 22px 25px;
     border-radius: 999px;
     width: 75vw;
     margin: 0 auto;

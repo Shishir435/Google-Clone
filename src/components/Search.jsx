@@ -1,6 +1,7 @@
-// import Button from '@mui/icons-material/SmartButton';
+
 import SearchIcon from "@mui/icons-material/Search";
-import MicIcon from "@mui/icons-material/Mic";
+// import MicIcon from "@mui/icons-material/Mic";
+const MicIcon = './MicIcon.svg'
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Search.css";
@@ -36,7 +37,7 @@ const Search = ({ hideButtons = false }) => {
             setInput(e.target.value);
           }}
         />
-        <MicIcon />
+        <img draggable="false" src={MicIcon} alt="mic" /> 
       </div>
       {!hideButtons ? (
         <div className="search__buttons">

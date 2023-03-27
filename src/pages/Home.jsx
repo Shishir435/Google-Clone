@@ -6,12 +6,12 @@ import AppsIcon from '@mui/icons-material/Apps';
 import Avatar from '@mui/icons-material/AccountCircle';
 import './Home.css'
 import Search from './Search';
-import Icons from './Icons';
+
 
 const Home = () => {
   return (
     <div className='home'>
-      {/* <h1>This is home</h1> */}
+    
       <div className="home__header">
           <div className="header__left">
           <Link to='/about'>About</Link>
@@ -20,11 +20,11 @@ const Home = () => {
             <Link to='/gmail'>Gmail</Link>
             <Link to='/images'>Images</Link>
             <AppsIcon />
-            <Avatar/>
+            <Avatar sx={{fontSize: '40px'}}/>
           </div>
       </div>
       <div className="home__body">
-        <img src="/google.svg" alt="Google img" />
+        <img draggable="false" src="/google.svg" alt="Google img" />
         <div className="home__inputcontainer">
           <Search />
         </div>
