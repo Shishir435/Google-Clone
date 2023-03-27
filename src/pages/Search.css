@@ -58,3 +58,27 @@
 .search__buttonHindden{
     display: none !important;
 }
+
+@media screen and (max-width: 600px) {
+   
+   .search__input{
+    width: 90vw;
+   }
+  }
+@media screen and (max-width: 380px) {
+   
+   .search__input > input::placeholder{
+    font-size: 12px;
+   }
+   .search__input{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   }
+   
+   .search__inputIcon{
+    margin-left: 2px;
+   }
+  }

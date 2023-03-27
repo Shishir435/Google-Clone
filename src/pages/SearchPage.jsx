@@ -11,6 +11,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import RoomIcon from "@mui/icons-material/Room";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import Footer from "../components/Footer";
 const SearchPage = () => {
   const [{ term = "Jio" }, dispatch] = useStateValue();
 
@@ -27,12 +28,12 @@ const SearchPage = () => {
         <Link to="/">
           <img
             className="searchPage__logo"
-            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"
-            alt="hjh"
+            src="/google.svg"
+            alt="google img"
           />
         </Link>
         <div className="searchPage__headerBody">
-          <Search hideButtons />
+          <Search hideButtons className="searchPage__input" />
           <div className="searchPage__options">
             <div className="searchPage__optionsLeft">
               <div className="searchPage__option">
@@ -96,6 +97,7 @@ const SearchPage = () => {
               <p className="searchPage__resultsSnippet">{item.snippet}</p>
             </div>
           ))}
+          <Footer />
         </div>
       )}
     </div>

@@ -23,6 +23,7 @@
 }
 
 .header__right{
+    cursor: pointer;
     display: flex;
     align-items: center;
     min-width: 13vw;

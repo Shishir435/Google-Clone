@@ -1,0 +1,39 @@
+.homePage__icons {
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.homePage__icon:hover {
+  background-color: rgb(243, 245, 249);
+}
+
+.homePage__icon {
+  width: 100px;
+  height: 100px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.homepage__imageDiv{
+    height: 40px;
+    width: 40px;
+    background: rgb(208, 210, 210);
+    border-radius: 50%;
+}
+
+.homePage__icon img {
+  border-radius: 50%;
+ 
+  align-items: center !important;
+  display: flex;
+  margin: auto;
+  margin-top: 24%;
+}
+
+

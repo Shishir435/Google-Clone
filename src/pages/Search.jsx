@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "./Search.css";
 import { useStateValue } from "../StateProvider";
 import { actionType } from "../reducer";
+import Icons from "./Icons";
 
 
 
@@ -29,6 +30,7 @@ const Search = ({ hideButtons = false }) => {
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
         <input
+        placeholder="Search Google or Type a URL"
           value={input}
           onChange={(e) => {
             setInput(e.target.value);
@@ -38,10 +40,10 @@ const Search = ({ hideButtons = false }) => {
       </div>
       {!hideButtons ? (
         <div className="search__buttons">
-          <button type="submit" onClick={search}>
+          <button style={{display: 'none'}} type="submit" onClick={search}>
             Google Search
           </button>
-          <button>I'm Feeling Lucky</button>
+          <Icons />
         </div>
       ) : (
         <div className="search__buttons">
@@ -52,7 +54,7 @@ const Search = ({ hideButtons = false }) => {
           >
             Google Search
           </button>
-          <button className="search__buttonHindden">I'm Feeling Lucky</button>
+        
         </div>
       )}
     </form>
