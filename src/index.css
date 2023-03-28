@@ -9,5 +9,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-color: #6969dd #e0e0e0;
+  scrollbar-base-color: #6969dd;
+  scrollbar-face-color: #6969dd;
+  scrollbar-track-color: #6969dd;
+  scrollbar-gutter: #6969dd;
   font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
