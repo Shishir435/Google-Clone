@@ -1,0 +1,13 @@
+
+.modal__container{
+    display:  inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.modal__icon{
+    width: 100px;
+    height: 100px; 
+    gap: 1rem;
+}
+.modal__icon img{
+    border-radius: 50%;
+}
