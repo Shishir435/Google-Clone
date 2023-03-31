@@ -141,6 +141,10 @@
   }
 }
 @media screen and (max-width: 500px) {
+
+  .searchInput__micIcon{
+    margin-left: -5px;
+  }
   .searchPage__headerBody {
     max-width: 350px !important;
   }
@@ -150,7 +154,17 @@
     margin-bottom: 130px;
   }
 }
+
+@media screen and (max-width: 440px) {
+ .search__input{
+  width: fit-content;
+ }
+ .search__input input::placeholder{
+  font-size: 14px;
+ }
+}
 @media screen and (max-width: 400px) {
+ 
   .searchPage__headerBody {
     max-width: 300px !important;
   }
@@ -161,6 +175,8 @@
   }
 }
 @media screen and (max-width: 300px) {
+ 
+ 
   .searchPage__headerBody {
     max-width: 270px !important;
   }

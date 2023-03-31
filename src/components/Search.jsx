@@ -32,13 +32,14 @@ const Search = ({ hideButtons = false }) => {
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
         <input
+        
         placeholder="Search Google or Type a URL"
           value={input}
           onChange={(e) => {
             setInput(e.target.value);
           }}
         />
-        <img draggable="false" src={MicIcon} alt="mic" /> 
+        <img className="searchInput__micIcon" draggable="false" src={MicIcon} alt="mic" /> 
       </div>
      
     {!hideButtons ? (
