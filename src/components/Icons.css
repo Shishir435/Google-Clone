@@ -1,7 +1,9 @@
 .homePage__icons {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: transparent;
   cursor: pointer;
+ 
   margin: -5px auto !important; 
   /* overflow-x: scroll; */
 }
@@ -51,4 +53,24 @@
   font-weight: 100;
 }
 
-
+@media screen and (max-width: 380px) {
+.homePage__icons{
+  grid-template-columns: 2fr 2fr;
+  gap: auto;
+  align-items: center;
+  /* max-width: 80vh; */
+  width: 50vh;
+  z-index: 100;
+  margin-right: -30px;
+  /* position: relative; */
+  /* margin-left: 23vh; */
+ /* align-content: center; */
+  /* padding: 3vh auto; */
+ /* place-items: center !important; */
+}
+.homePage__icon{
+  /* margin-right: -100px !important; */
+  display: flex !important;
+  justify-content: center;
+}
+}

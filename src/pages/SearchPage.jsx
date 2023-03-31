@@ -23,6 +23,7 @@ const SearchPage = () => {
 
   console.log(data);
   return (
+   
     <div className="searchPage">
       <div className="searchPage__header">
         <Link to="/">

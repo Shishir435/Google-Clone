@@ -19,36 +19,36 @@ const Home = () => {
 
   return (
     <>
-       <main id='modal__div'>
+      <main id='modal__div'>
 
-       
-      <Modal
-        open={open}
-        onClose={(e) => setOpen(false)}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
 
-        <Box sx={{
-          position: 'absolute',
-          backgroundColor: 'rgba(0,0,0,.87)',
-          color: 'white',
-          top: '300px',
-          right: '-150px',
-          borderRadius: '0.5rem',
-          transform: 'translate(-50%, -50%)',
-          width: 350,
-          maxHeight: 450,
-          overflowY: 'scroll',
-          border: '1px solid #000',
-          p: 4
-        }}>
-          <div style={{color: 'white'}}>
-             <ModalIcon/>
-          </div>
-        </Box>
+        <Modal
+          open={open}
+          onClose={(e) => setOpen(false)}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
 
-      </Modal>
+          <Box sx={{
+            position: 'absolute',
+            backgroundColor: 'rgba(0,0,0,.87)',
+            color: 'white',
+            top: '300px',
+            right: '-150px',
+            borderRadius: '0.5rem',
+            transform: 'translate(-50%, -50%)',
+            width: 350,
+            maxHeight: 450,
+            overflowY: 'scroll',
+            border: '1px solid #000',
+            p: 4
+          }}>
+            <div style={{ color: 'white' }}>
+              <ModalIcon />
+            </div>
+          </Box>
+
+        </Modal>
       </main>
       <div className='home'>
 
@@ -64,7 +64,9 @@ const Home = () => {
           </div>
         </div>
         <div className="home__body">
-          <img draggable="false" src="/google.svg" alt="Google img" />
+          <div className='home__page__svg__container'>
+            <img className='home__googlesvg' draggable="false" src="/google.svg" alt="Google img" />
+          </div>
           <div className="home__inputcontainer">
             <Search />
           </div>

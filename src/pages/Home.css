@@ -5,6 +5,10 @@
   font-size: 81.25%;
 
 }
+.home__page__svg__container{
+  display: flex;
+  justify-content: center;
+ }
 .home__header {
   display: flex;
   justify-content: space-between;
@@ -63,4 +67,22 @@
   width: 0.55em;
   border-radius: 5px;
   height: 2px;
+}
+
+@media screen and (max-width: 380px) {
+   .home{
+    /* margin: 20px auto; */
+    margin-right: -20vh;
+   }
+   .home__page__svg__container{
+    display: flex;
+    justify-content: center;
+   }
+
+  .home__googlesvg{
+   
+    max-width: 50vw !important;
+    width: 80vw;
+    height: inherit;
+  }
 }

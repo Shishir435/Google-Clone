@@ -27,6 +27,7 @@ const Search = ({ hideButtons = false }) => {
     navigate("/search");
   };
   return (
+    <div className="search__input__container">
     <form className="search">
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
@@ -39,7 +40,8 @@ const Search = ({ hideButtons = false }) => {
         />
         <img draggable="false" src={MicIcon} alt="mic" /> 
       </div>
-      {!hideButtons ? (
+     
+    {!hideButtons ? (
         <div className="search__buttons">
           <button style={{display: 'none'}} type="submit" onClick={search}>
             Google Search
@@ -59,6 +61,7 @@ const Search = ({ hideButtons = false }) => {
         </div>
       )}
     </form>
+    </div>
   );
 };
 

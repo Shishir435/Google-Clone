@@ -21,7 +21,8 @@ const Icons = () => {
             <div>
               <p style={{fontWeight: '100', fontSize: '13px'}}>{item.name}</p>
             </div>
-          </div></a>
+          </div>
+          </a>
       ))}
     </div>
 

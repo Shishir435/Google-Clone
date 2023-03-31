@@ -1,10 +1,14 @@
+
+.searchPage{
+}
+
 .searchPage__header {
   display: flex;
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 100;
-  align-items: flex-start;
+  align-items: center;
   padding: 30px;
   border-bottom: 1px solid lightgray;
 }
@@ -97,16 +101,21 @@
     flex-direction: column;
     align-items: center;
   }
+  .searchPage__logo{
+    margin-right: 0;
+    margin-bottom: -25px;
+    height: 80px;
+  }
   .searchPage__headerBody {
     max-width: 600px;
   }
   .searchPage__options {
+    margin: 10px 20px;
     overflow-x: scroll;
-    
   }
   .searchPage__results{
     max-width: 600px;
-    margin: 20px auto !important;
+    margin: 20px !important;
   }
 }
 @media screen and (max-width: 700px) {
@@ -117,43 +126,46 @@
   
   .searchPage__results {
     max-width: 550px;
-    margin-bottom: 100px;
+    margin: 20px 20px 100px 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .searchPage__headerBody {
-    max-width: 400px;
+    max-width: 400px !important;
   }
   .searchPage__results{
-    max-width: 500px;
-    margin: 15px auto !important;
+    max-width: 500px !important;
+    margin: 15px 20px !important;
     margin-bottom: 120px;
   }
 }
 @media screen and (max-width: 500px) {
   .searchPage__headerBody {
-    max-width: 350px;
+    max-width: 350px !important;
   }
   .searchPage__results{
     max-width: 450px !important;
-    margin: 10px auto !important;
+    margin: 10px 20px !important;
     margin-bottom: 130px;
   }
 }
 @media screen and (max-width: 400px) {
   .searchPage__headerBody {
-    max-width: 300px;
+    max-width: 300px !important;
   }
   .searchPage__results{
-    margin: 5px auto;
     max-width: 350px !important;
+    margin: 5px 15px !important;
     margin-bottom: 230px !important ;
   }
 }
 @media screen and (max-width: 300px) {
   .searchPage__headerBody {
-    max-width: 270px;
+    max-width: 270px !important;
+  }
+  .searchPage__options{
+    margin: 10px 40px;
   }
   .searchPage__results{
     max-width: 270px;
@@ -162,11 +174,13 @@
 }
 @media screen and (max-width: 200px) {
   .searchPage__headerBody {
-    max-width: 190px;
+    max-width: 190px !important;
   }
+ 
   .searchPage__results{
     
-    max-width: 180px;
+    max-width: 180px !important;
+    margin: 5px !important;
     margin-bottom: 250px !important;
   }
 }
